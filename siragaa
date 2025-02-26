@@ -1,0 +1,11 @@
+import numpy as np
+m = np.sqrt(7.002 * (np.sqrt(0.1) - 1) + (1/10) * (np.exp(2) + np.exp(-2)))
+n = np.log(3 * (np.cos(np.pi/5) + np.cos(3*np.pi/5)))
+if m*2 + n*2 > 0.1:
+    s = np.arctan(5*m*2 + 7*n*2)
+else:
+    s = np.sin(5*m*2 + 7*n*2)
+
+print(f"m = {m}")
+print(f"n = {n}")
+print(f"s = {s}")
